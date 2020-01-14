@@ -10,6 +10,6 @@ jobs:
         uses: actions/checkout@master
 
       - name: Compress Images
-        uses: calibreapp/image-actions@master
+        uses: chabad360/image-actions@yaml
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
